@@ -7,7 +7,7 @@ This project enables **data-driven decision-making** by visualizing KPIs such as
 
 ## 📂 Repository Structure
 
-Supply-Chain-Management-Dashboard/
+**Supply-Chain-Management-Dashboard/**
 │── data/
 │ ├── supply_chain.csv # Original dataset
 │ ├── processed_data.xlsx # Cleaned & prepared dataset
