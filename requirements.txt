@@ -1,5 +1,10 @@
+# Data Preprocessing & Analysis
 pandas
 numpy
-openpyxl
+openpyxl   # For Excel export
 
+# Database Connectivity
+mysql-connector-python
 
+# Optional: Jupyter Notebook (for project_setup.ipynb)
+jupyter
