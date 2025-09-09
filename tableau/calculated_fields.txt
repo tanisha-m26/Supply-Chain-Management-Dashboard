@@ -1,0 +1,22 @@
+// Inventory Management
+Days of Inventory Remaining:
+[Stock Levels] / AVG([Number of products sold])
+
+// Order Fulfillment
+On-Time Delivery Rate:
+SUM(IF [Shipping Times] <= [Lead Times] THEN 1 ELSE 0 END) / COUNT([SKU])
+
+// Supplier Performance
+Average Delivery Time:
+AVG([Lead Time])
+
+Defect Rate:
+AVG([Defect Rates])
+
+// Transportation Efficiency
+Average Transit Time:
+AVG([Shipping Times])
+
+// Supply Chain Costs
+Total Costs:
+SUM([Costs])
