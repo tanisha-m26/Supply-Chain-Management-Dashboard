@@ -6,35 +6,40 @@ This project enables **data-driven decision-making** by visualizing KPIs such as
 ---
 
 ## 📂 Repository Structure
+# 📂 Repository Structure
 
-**Supply-Chain-Management-Dashboard/**
-│── data/
+**Supply-Chain-Management-Dashboard/**  
+Organized project with datasets, SQL scripts, Tableau dashboards, and documentation.  
+
+
+Supply-Chain-Management-Dashboard/
+|
+│── data/ # Raw and processed datasets + SQL schemas
 │ ├── supply_chain.csv # Original dataset
 │ ├── processed_data.xlsx # Cleaned & prepared dataset
 │ ├── create_tables.sql # SQL schema (tables)
 │ ├── sample_inserts.sql # Insert queries with sample records
 │ └── schema.sql # Master SQL schema + constraints
-│
-│── sql/
-│ └── queries.sql # Common SQL queries for analysis
-│
-│── tableau/
+|
+│── sql/ # SQL queries for analysis
+│ └── queries.sql # Common SQL queries (KPIs, joins, reports)
+|
+│── tableau/ # Tableau dashboard & visuals
 │ ├── SCM_Dashboard.twbx # Tableau packaged workbook
 │ ├── calculated_fields.txt # Custom fields used in Tableau
-│ └── screenshots/ # Dashboard visuals
+│ └── screenshots/ # Exported dashboard visuals
 │ ├── inventory_view.png
 │ ├── supplier_performance.png
 │ └── final_dashboard.png
-│
-│── docs/
+|
+│── docs/ # Documentation & reports
 │ ├── Project_Report.pdf # Final project report
 │ └── Presentation.pptx # Slides for showcase
-│
-│── project_setup.ipynb # Notebook for preprocessing dataset
-│── requirements.txt # Dependencies for preprocessing
-│── README.md # Documentation
+|
+│── project_setup.ipynb # Jupyter notebook for preprocessing dataset
+│── requirements.txt # Python dependencies (if preprocessing used)
+│── README.md # Main documentation file
 │── LICENSE # License file
-
 
 
 ---
