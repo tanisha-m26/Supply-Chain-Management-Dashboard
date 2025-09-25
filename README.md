@@ -17,12 +17,17 @@ Organized project with datasets, SQL scripts, Tableau dashboards, and documentat
    -│── data/ # Raw and processed datasets + SQL schemas
    -│ ├── supply_chain.csv # Original dataset
    -│ ├── processed_data.xlsx # Cleaned & prepared dataset
-   -│ ├── create_tables.sql # SQL schema (tables)
-   -│ ├── sample_inserts.sql # Insert queries with sample records
-   -│ └── schema.sql # Master SQL schema + constraints
+
    -|
    -│── sql/ # SQL queries for analysis
    -│ └── queries.sql # Common SQL queries (KPIs, joins, reports)
+   -│ ├── create_tables.sql # SQL schema (tables)
+   -│ ├── sample_inserts.sql # Insert queries with sample records
+   -│ └── schema.sql # Master SQL schema + constraints   
+
+   -│── scripts   
+   -│ ├── data_processing.py
+   -│ ├── db_operations.py
    -|
    -│── tableau/ # Tableau dashboard & visuals
    -│ ├── SCM_Dashboard.twbx # Tableau packaged workbook
@@ -40,6 +45,7 @@ Organized project with datasets, SQL scripts, Tableau dashboards, and documentat
    -│── requirements.txt # Python dependencies (if preprocessing used)
    -│── README.md # Main documentation file
    -│── LICENSE # License file
+   -│── dashboard_app.py   
 
 
 ---
