@@ -22,6 +22,49 @@
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
   </preferences>
+  <style>
+    <style-rule element='axis'>
+      <format attr='tick-color' value='#000000' />
+      <format attr='stroke-color' value='#000000' />
+    </style-rule>
+    <style-rule element='worksheet'>
+      <format attr='font-weight' value='bold' />
+      <format attr='font-size' value='9' />
+    </style-rule>
+    <style-rule element='dropline'>
+      <format attr='stroke-color' value='#000000' />
+    </style-rule>
+    <style-rule element='refline'>
+      <format attr='stroke-color' value='#0000004b' />
+    </style-rule>
+    <style-rule element='gridline'>
+      <format attr='stroke-color' value='#000000' />
+    </style-rule>
+    <style-rule element='zeroline'>
+      <format attr='stroke-color' value='#000000' />
+    </style-rule>
+    <style-rule element='trendline'>
+      <format attr='stroke-color' value='#00000067' />
+    </style-rule>
+    <style-rule element='title'>
+      <format attr='color' value='#000000' />
+      <format attr='font-size' value='18' />
+    </style-rule>
+    <style-rule element='dash-title'>
+      <format attr='font-weight' value='bold' />
+    </style-rule>
+    <style-rule element='story-title'>
+      <format attr='font-weight' value='bold' />
+    </style-rule>
+    <style-rule element='tooltip'>
+      <format attr='font-weight' value='bold' />
+      <format attr='font-size' value='18' />
+    </style-rule>
+    <style-rule element='all'>
+      <format attr='color' value='#000000' />
+      <format attr='font-family' value='Tableau Bold' />
+    </style-rule>
+  </style>
   <datasources>
     <datasource caption='Sheet1 (processed_data)' inline='true' name='federated.15tfg9s0zh5uvz1e8yaf50bd6k9i' version='18.1'>
       <connection class='federated'>
@@ -497,7 +540,7 @@
         </groupfilter>
       </group>
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1mqelp802jid7c13gbabd1s6bxwi.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/25/2025 07:13:26 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0s2e1zj0ycp8ir18f131c00khytw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/25/2025 06:57:04 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
@@ -943,7 +986,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='20'>KPI_1</run>
+            <run bold='true' fontalignment='1'>KPI_1</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1007,7 +1050,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>KPI_2</run>
+            <run fontalignment='1'>KPI_2</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1071,7 +1114,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontname='Tableau Bold' fontsize='20'>Total Revenue By Product Type</run>
+            <run>Total Revenue By Product Type</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1190,7 +1233,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontname='Tableau Bold' fontsize='20'>Average Lead Time By Location</run>
+            <run>Average Lead Time By Location</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1350,7 +1393,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>Delay HeatMap(Product Time*Location)</run>
+            <run fontalignment='1'>Delay HeatMap(Product Time*Location)</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1768,7 +1811,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontname='Tableau Bold' fontsize='20'>        Shipping Carrier Analysis</run>
+            <run>        Shipping Carrier Analysis</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1799,9 +1842,6 @@
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='size-bar' field='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[sum:revenue_generated:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
-          </style-rule>
-          <style-rule element='refline'>
-            <format attr='stroke-color' id='refline0' value='#000000' />
           </style-rule>
         </style>
         <panes>
@@ -2336,7 +2376,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='20'>From COSTS point of view</run>
+            <run bold='true' fontalignment='1'>From COSTS point of view</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -4645,7 +4685,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='20'>SKUs with Value</run>
+            <run bold='true' fontalignment='1'>SKUs with Value</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -9699,9 +9739,9 @@
       <size maxheight='660' maxwidth='1450' minheight='360' minwidth='520' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97148' id='8' param='vert' type-v2='layout-flow' w='98606' x='697' y='1426'>
-            <zone h='97148' id='6' type-v2='layout-basic' w='98606' x='697' y='1426'>
-              <zone h='43830' id='3' name='Sheet 1' w='98606' x='697' y='1426'>
+          <zone h='97576' id='8' param='vert' type-v2='layout-flow' w='98896' x='552' y='1212'>
+            <zone h='97576' id='6' type-v2='layout-basic' w='98896' x='552' y='1212'>
+              <zone h='44024' id='3' name='Sheet 1' w='98896' x='552' y='1212'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9709,7 +9749,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='53318' id='5' name='Sheet 2' w='98606' x='697' y='45256'>
+              <zone h='53552' id='5' name='Sheet 2' w='98896' x='552' y='45236'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9750,9 +9790,9 @@
       <size maxheight='860' maxwidth='1550' minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97398' id='7' param='horz' type-v2='layout-flow' w='98640' x='680' y='1301'>
-            <zone h='97398' id='5' type-v2='layout-basic' w='37892' x='680' y='1301'>
-              <zone h='97398' id='3' name='Sheet 3' w='37892' x='680' y='1301'>
+          <zone h='97858' id='7' param='horz' type-v2='layout-flow' w='98968' x='516' y='1071'>
+            <zone h='97858' id='5' type-v2='layout-basic' w='39549' x='516' y='1071'>
+              <zone h='97858' id='3' name='Sheet 3' w='39549' x='516' y='1071'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9761,8 +9801,8 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='715' h='97398' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='60748' x='38572' y='1301'>
-              <zone fixed-size='101' h='17724' id='8' is-fixed='true' name='Sheet 3' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[none:product_type:nk]' type-v2='color' w='60748' x='38572' y='1301'>
+            <zone fixed-size='921' h='97858' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='59419' x='40065' y='1071'>
+              <zone fixed-size='101' h='14592' id='8' is-fixed='true' name='Sheet 3' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[none:product_type:nk]' type-v2='color' w='59419' x='40065' y='1071'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9770,7 +9810,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone fixed-size='752' h='79674' id='9' is-fixed='true' name='Sheet 4' w='60748' x='38572' y='19025'>
+              <zone fixed-size='752' h='83266' id='9' is-fixed='true' name='Sheet 4' w='59419' x='40065' y='15663'>
                 <layout-cache cell-count-w='5' minheight='205' non-cell-size-w='68' type-h='scalable' type-w='cell' />
                 <zone-style>
                   <format attr='border-color' value='#000000' />
@@ -9812,9 +9852,9 @@
       <size maxheight='860' maxwidth='1550' minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97398' id='7' param='horz' type-v2='layout-flow' w='98640' x='680' y='1301'>
-            <zone h='97398' id='5' type-v2='layout-basic' w='37722' x='680' y='1301'>
-              <zone h='97398' id='3' name='Sheet 5' w='37722' x='680' y='1301'>
+          <zone h='97858' id='7' param='horz' type-v2='layout-flow' w='98968' x='516' y='1071'>
+            <zone h='97858' id='5' type-v2='layout-basic' w='38839' x='516' y='1071'>
+              <zone h='97858' id='3' name='Sheet 5' w='38839' x='516' y='1071'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9823,8 +9863,8 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='717' h='97398' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='60918' x='38402' y='1301'>
-              <zone h='21951' id='8' name='Sheet 5' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[none:location:nk]' type-v2='color' w='60918' x='38402' y='1301'>
+            <zone fixed-size='932' h='97858' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='60129' x='39355' y='1071'>
+              <zone h='18072' id='8' name='Sheet 5' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[none:location:nk]' type-v2='color' w='60129' x='39355' y='1071'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9832,7 +9872,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='75447' id='9' name='Sheet 6' w='60918' x='38402' y='23252'>
+              <zone h='79786' id='9' name='Sheet 6' w='60129' x='39355' y='19143'>
                 <layout-cache cell-count-w='9' minheight='326' non-cell-size-w='43' type-h='scalable' type-w='cell' />
                 <zone-style>
                   <format attr='border-color' value='#000000' />
@@ -9874,9 +9914,9 @@
       <size maxheight='860' maxwidth='1650' minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97398' id='7' param='horz' type-v2='layout-flow' w='98640' x='680' y='1301'>
-            <zone h='97398' id='5' type-v2='layout-basic' w='77739' x='680' y='1301'>
-              <zone h='97398' id='3' name='Sheet 7' w='77739' x='680' y='1301'>
+          <zone h='97808' id='7' param='horz' type-v2='layout-flow' w='99024' x='488' y='1096'>
+            <zone h='97808' id='5' type-v2='layout-basic' w='82997' x='488' y='1096'>
+              <zone h='97808' id='3' name='Sheet 7' w='82997' x='488' y='1096'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9885,8 +9925,8 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='246' h='97398' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='20901' x='78419' y='1301'>
-              <zone fixed-size='103' h='18049' id='8' is-fixed='true' name='Sheet 7' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[none:location:nk]' type-v2='color' w='20901' x='78419' y='1301'>
+            <zone fixed-size='263' h='97808' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16027' x='83485' y='1096'>
+              <zone fixed-size='103' h='15206' id='8' is-fixed='true' name='Sheet 7' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[none:location:nk]' type-v2='color' w='16027' x='83485' y='1096'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -9927,18 +9967,10 @@
       <size maxheight='860' maxwidth='1950' minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97398' id='10' param='vert' type-v2='layout-flow' w='98640' x='680' y='1301'>
-            <zone h='8130' id='11' type-v2='title' w='98640' x='680' y='1301'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone h='89268' id='7' param='horz' type-v2='layout-flow' w='98640' x='680' y='9431'>
-              <zone h='89268' id='5' type-v2='layout-basic' w='83092' x='680' y='9431'>
-                <zone h='89268' id='3' name='Sheet 8' w='83092' x='680' y='9431'>
+          <zone h='97856' id='10' param='vert' type-v2='layout-flow' w='99034' x='483' y='1072'>
+            <zone h='97856' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='1072'>
+              <zone h='97856' id='5' type-v2='layout-basic' w='87990' x='483' y='1072'>
+                <zone h='97856' id='3' name='Sheet 8' w='87990' x='483' y='1072'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -9947,8 +9979,8 @@
                   </zone-style>
                 </zone>
               </zone>
-              <zone fixed-size='183' h='89268' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='15548' x='83772' y='9431'>
-                <zone h='11708' id='8' name='Sheet 8' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[:Measure Names]' type-v2='color' w='15548' x='83772' y='9431'>
+              <zone fixed-size='183' h='97856' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11044' x='88473' y='1072'>
+                <zone h='9651' id='8' name='Sheet 8' pane-specification-id='0' param='[federated.15tfg9s0zh5uvz1e8yaf50bd6k9i].[:Measure Names]' type-v2='color' w='11044' x='88473' y='1072'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -9987,13 +10019,13 @@
     </dashboard>
     <dashboard name='Story 1' type='storyboard'>
       <style />
-      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <size maxheight='764' maxwidth='1816' minheight='764' minwidth='1816' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
-            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
-            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
-            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+          <zone h='97906' id='1' param='vert' removable='false' type-v2='layout-flow' w='99118' x='441' y='1047'>
+            <zone h='5366' id='3' type-v2='title' w='99118' x='441' y='1047' />
+            <zone h='13220' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99118' x='441' y='6413' />
+            <zone h='79320' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99118' x='441' y='19633'>
               <flipboard active-id='12' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='Supply Chain Management Dashboard                        KPIs' captured-sheet='Sheet 1' id='4' />
@@ -10003,7 +10035,13 @@
                   <story-point caption='Delay Heatmap' captured-sheet='Sheet 5' id='9' />
                   <story-point caption='Shipping Carrier Analysis' captured-sheet='Sheet 6' id='10' />
                   <story-point caption='From COSTS point of view' captured-sheet='Sheet 7' id='11' />
-                  <story-point caption='SKUs * Values' captured-sheet='Sheet 8' id='12' />
+                  <story-point caption='SKUs * Values' captured-sheet='Sheet 8' id='12'>
+                    <capturedDeltas>
+                      <worksheet name='Sheet 8'>
+                        <selection-collection />
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
                 </story-points>
               </flipboard>
             </zone>
@@ -10197,7 +10235,7 @@
       </cards>
       <simple-id uuid='{909F8DF7-EB2A-4C1F-A695-BFA25316973C}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 8'>
+    <window class='worksheet' name='Sheet 8'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -10226,9 +10264,9 @@
       </cards>
       <simple-id uuid='{491EB87C-61CF-46E2-AEEA-B13C30311806}' />
     </window>
-    <window class='dashboard' name='Story 1'>
+    <window class='dashboard' maximized='true' name='Story 1'>
       <viewpoints />
-      <active id='-1' />
+      <active id='5' />
       <simple-id uuid='{FDD8DEFC-B611-4812-AA03-FDE0CD7416FF}' />
     </window>
     <window class='dashboard' name='Dashboard 1'>
@@ -10270,7 +10308,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='6' />
       <simple-id uuid='{FF368464-9A5F-4E89-9FA1-DCD6A50D98B5}' />
     </window>
     <window class='dashboard' name='Dashboard 5'>
