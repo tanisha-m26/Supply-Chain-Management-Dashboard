@@ -8,3 +8,5 @@ mysql-connector-python
 
 # Optional: Jupyter Notebook (for project_setup.ipynb)
 jupyter
+
+#pip install streamlit pandas numpy matplotlib seaborn scikit-learn tensorflow
