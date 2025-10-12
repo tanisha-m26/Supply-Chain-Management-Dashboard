@@ -363,7 +363,7 @@ st.markdown(
     <hr style='border-color: #4b5563;'>
     <div style='text-align: center; padding: 10px;'>
         <p style='font-size: 1em; font-family: "Inter", sans-serif; color: #ffffff;'>
-            © 2025 All rights reserved by <a href='https://github.com/RobinMillford' target='_blank' style='color: #22d3ee;'>RobinMillford</a>
+            © 2025 All rights reserved by <a href='https://github.com/tanisha-m26' target='_blank' style='color: #22d3ee;'>tanisha-m26</a>
         </p>
     </div>
     """,
