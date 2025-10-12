@@ -15,7 +15,7 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 # Load data
-df = load_data('supply_chain_data.csv')
+df = load_data("D:\\Supply-Chain-Management-Dashboard\\data\\supply_chain.csv")
 
 # Sidebar for filters
 st.sidebar.header("🔎 Filters", anchor=False)
