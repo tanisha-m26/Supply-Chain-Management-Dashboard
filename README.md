@@ -1,8 +1,3 @@
-You can see the Sytreamlit Dashboard View at : 
-
-
-
-
 # Supply Chain Management Dashboard
 
 A real-time **Supply Chain Analytics Dashboard** built using **MySQL** and **Tableau**, with a structured dataset for inventory, suppliers, orders, and logistics.  
